@@ -1,30 +1,16 @@
 # AI Workflow Kit
 
-Local tools for working with file-capable AI agents. Compare and refine designs, or keep project state in a memory workspace.
+These tools are now maintained in separate repositories.
 
-## Choose a package
-
-| Package | Use | Version |
+| Project | Repository | Beta download |
 |---|---|---|
-| [Design Lab](packages/design-lab/README.md) | Adjust a live component or page, test edge cases, save selections, and continue reviews | 1.5.2 beta |
-| [Memory System Starter Kit](packages/memory-system-starter-kit/README.md) | Create a local workspace for rules, memory, and resumable project records | 1.0.0 beta |
+| Design Lab | [peishihu/design-lab](https://github.com/peishihu/design-lab) | [Design Lab 1.5.2](https://github.com/peishihu/design-lab/releases/tag/v1.5.2-beta) |
+| Memory System Starter Kit | [peishihu/memory-system-starter-kit](https://github.com/peishihu/memory-system-starter-kit) | [Memory Kit 1.0.0](https://github.com/peishihu/memory-system-starter-kit/releases/tag/v1.0.0-beta) |
 
-Each package has its own quick start. Keep its required files together. No package uploads user content or configures a remote repository during normal setup.
+Use each project's README for setup, requirements, and supported workflows. Future updates belong in the separate repositories.
 
-## Start
-
-For Design Lab, open its folder in a file-capable agent and follow its installation prompt. Keep the design-lab and variant-lab skill folders beside each other. Open the included example to inspect the panel.
-
-For Memory Kit, run its setup helper with a new destination, then open the created workspace in your agent. Existing destinations are refused. Global client changes are optional and separate.
-
-Design Lab's browser demo needs no Node installation. Optional command-line tests require Node 20 or newer. Memory setup requires Python 3.9 or newer; its health and dashboard scripts need Bash. Git is optional.
-
-## Beta scope
-
-The packages were checked on macOS. Design Lab includes state/browser tests and an agent-generated component pilot. Memory Kit includes a synthetic new-owner setup and saved-record resume pilot. These checks are not a real-user study or proof of automatic loading in every client. Other operating systems and virtual-keyboard behavior remain unverified.
-
-Keep private records and credentials out of shared payloads. Review content before backup, sync, or publication. Follow the data policy for your device, organization, and AI tool.
+This repository remains an index and preserves the original combined beta for existing links. The files under packages/ and the v0.1.0-beta assets are historical copies, not the current development locations.
 
 ## Maintainer and license
 
-Maintained by Pei Shi Hu. These two packages use the [MIT License](LICENSE). Required notices must remain when you redistribute covered material. See each package changelog for its changes.
+Maintained by Pei Shi Hu. The original combined packages use the [MIT License](LICENSE). See each standalone repository for its current files and license.
